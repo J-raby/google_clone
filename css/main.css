@@ -70,10 +70,6 @@
   min-height: 100vh;
 
   position: relative;
-
-
-
-
 }
 
 header {
@@ -82,6 +78,16 @@ header {
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+.chocolatteBtn * {
+  padding: 8px;
+}
+
+.chocolatteBtn:hover,
+.chocolatteBtn:focus {
+  border-radius: 50%;
+  background-color: #303134;
 }
 
 .header__drop-down {
