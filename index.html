@@ -16,6 +16,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- Javascript -->
+  <script defer src="./script/main.js"></script>
+  <script defer src="./script/chocalatteMenu.js"></script>
 </head>
 
 <body style="background-color:#353535; color: white !important; text-decoration: none;">
@@ -23,46 +27,199 @@
     <header>
       <nav class="header__nav">
         <div class="nav__text_container">
-          <a href="">Gmail</a>
-          <a href="">Images</a>
+          <a Class="link--white" href="">Gmail</a>
+          <a Class="link--white" href="">Images</a>
         </div>
         <div class="nav__icon_container">
-          <a href=""><span class="material-symbols-outlined link--white">
+          <a id="chocolatte" href="#"><span class="material-symbols-outlined link--white">
               apps
             </span></a>
-          <a href=""><img class="rounder--full"
+          <a href="#"><img class="rounder--full"
               src="https://lh3.googleusercontent.com/ogw/AAEL6siyxKSy1gRiROf1EFi9JrMGJxqHgIXRe0PhSE84=s32-c-mo"
               alt=""></a>
         </div>
       </nav>
+      <div id="menu" class="header__drop-down hidden">
+        <div class="drop-down__list">
+          <a class="link link--white list__item" href="#">
+            <img class="rounder--full"
+              src="https://lh3.googleusercontent.com/ogw/AAEL6siyxKSy1gRiROf1EFi9JrMGJxqHgIXRe0PhSE84=s32-c-mo"
+              alt="account logo"></img><span>Account</span>
+          </a>
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google.svg" alt="search logo"></img><span>Search</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-maps.svg" alt=""></img><span>Maps</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-youtube.svg" alt=""></img><span>Youtube</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-play.svg" alt=""></img><span>Play</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-news.svg" alt=""></img><span>News</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-gmail.svg" alt=""></img><span>Gmail</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-meet.svg" alt=""></img><span>Meet</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-chat-48.png" alt=""></img><span>Chat</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-contacts.svg" alt=""></img><span>Contact</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-drive.svg" alt=""></img><span>Drive</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-calendar.svg" alt=""></img><span>Calendar</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-translate.svg" alt=""></img><span>Translate</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-photos.svg" alt=""></img><span>Photos</span>
+          </a>
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/" alt=""></img><span>My add</span>
+          </a>
+
+          <a class="link link--white list__item" href="#">
+            <img src="./assets/icons/icons8-google-shopping-48.png" alt=""></img><span>Shopping</span>
+          </a>
+
+          <hr class="separator">
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+          <a href="#">
+            <img src="" alt=""></img><span></span>
+          </a>
+
+        </div>
+      </div>
     </header>
     <section>
       <div class="main_logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
           alt="Google_main_logo">
       </div>
-      <form action="" method="get" class="search_bar">
+      <form action="" method="get" class="search_bar" id="searchForm">
         <div class="search_bar__finder rounder--md">
-          <a href="" class="finder link--white"><span class="material-symbols-outlined">
-              search
-            </span></a>
-          <input type="text" class="search_bar__input">
+          <div class="finder">
+            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+          </div>
+          </svg>
+          </label>
+          <input type="text" class="search_bar__input" name="searchValue" id="searchVal">
           <div class="search_bar__search_by">
             <div class="search_bar__close">
               <a href="" class="link--white" hidden><span class="material-symbols-outlined">
                   close
                 </span></a>
             </div>
-            <div class="search_by__voice ">
-              <a href="" class="link--white"><span class="material-symbols-outlined">
-                  mic
-                </span></a>
+            <div class="search_by__voice">
+              <div class="voice">
+                <svg class="goxjub" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#4285f4"
+                    d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z">
+                  </path>
+                  <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+                  <path fill="#fbbc04"
+                    d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z">
+                  </path>
+                  <path fill="#ea4335"
+                    d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z">
+                  </path>
+                </svg>
+              </div>
             </div>
             <div class="search_by__image">
-              <a href="" class="link--white">
-                <span class="material-symbols-outlined">
-                  photo_camera
-                </span></a>
+              <div class="">
+                <img class="Gdd5U"
+                  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI0LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IlN0YW5kYXJkX3Byb2R1Y3RfaWNvbiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIKCSB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjE5MnB4IiBoZWlnaHQ9IjE5MnB4IiB2aWV3Qm94PSIwIDAgMTkyIDE5MiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTkyIDE5MiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxyZWN0IGlkPSJib3VuZGluZ19ib3hfMV8iIGZpbGw9Im5vbmUiIHdpZHRoPSIxOTIiIGhlaWdodD0iMTkyIi8+CjxnIGlkPSJhcnRfbGF5ZXIiPgoJPGNpcmNsZSBpZD0iRG90IiBmaWxsPSIjNDI4NUY0IiBjeD0iOTYiIGN5PSIxMDQuMTUiIHI9IjI4Ii8+Cgk8cGF0aCBpZD0iUmVkIiBmaWxsPSIjRUE0MzM1IiBkPSJNMTYwLDcydjQwLjE1VjEzNmMwLDEuNjktMC4zNCwzLjI5LTAuODIsNC44MnYwdjBjLTEuNTcsNC45Mi01LjQzLDguNzgtMTAuMzUsMTAuMzVoMHYwCgkJYy0xLjUzLDAuNDktMy4xMywwLjgyLTQuODIsMC44Mkg2NmwxNiwxNmg1MGgxMmM0LjQyLDAsOC42My0wLjksMTIuNDYtMi41MWMzLjgzLTEuNjIsNy4yOC0zLjk2LDEwLjE3LTYuODYKCQljMS40NS0xLjQ1LDIuNzYtMy4wMywzLjkxLTQuNzRjMi4zLTMuNCwzLjk2LTcuMjgsNC44MS0xMS40NGMwLjQzLTIuMDgsMC42NS00LjI0LDAuNjUtNi40NXYtMTJWOTYuMTVWODRsLTYtMTlsLTEwLjgyLDIuMTgKCQlDMTU5LjY2LDY4LjcxLDE2MCw3MC4zMSwxNjAsNzJ6Ii8+Cgk8cGF0aCBpZD0iQmx1ZSIgZmlsbD0iIzQyODVGNCIgZD0iTTMyLDcyYzAtMS42OSwwLjM0LTMuMjksMC44Mi00LjgyYzEuNTctNC45Miw1LjQzLTguNzgsMTAuMzUtMTAuMzVDNDQuNzEsNTYuMzQsNDYuMzEsNTYsNDgsNTYKCQloOTZjMS42OSwwLDMuMjksMC4zNCw0LjgyLDAuODJjMCwwLDAsMCwwLDBMMTQ5LDQ1bC0xNy01bC0xNi0xNmgtMTMuNDRIOTZoLTYuNTZINzZMNjAsNDBINDhjLTE3LjY3LDAtMzIsMTQuMzMtMzIsMzJ2MTJ2MjBsMTYsMTYKCQlWNzJ6Ii8+Cgk8cGF0aCBpZD0iR3JlZW4iIGZpbGw9IiMzNEE4NTMiIGQ9Ik0xNDQsNDBoLTEybDE2LjgzLDE2LjgzYzEuMjMsMC4zOSwyLjM5LDAuOTMsMy40NywxLjU5YzIuMTYsMS4zMiwzLjk3LDMuMTMsNS4yOSw1LjI5CgkJYzAuNjYsMS4wOCwxLjIsMi4yNCwxLjU5LDMuNDd2MEwxNzYsODRWNzJDMTc2LDU0LjMzLDE2MS42Nyw0MCwxNDQsNDB6Ii8+Cgk8cGF0aCBpZD0iWWVsbG93IiBmaWxsPSIjRkJCQzA0IiBkPSJNNDgsMTY4aDM5Ljg5bC0xNi0xNkg0OGMtOC44MiwwLTE2LTcuMTgtMTYtMTZ2LTIzLjg5bC0xNi0xNlYxMzZDMTYsMTUzLjY3LDMwLjMzLDE2OCw0OCwxNjh6CgkJIi8+CjwvZz4KPC9zdmc+Cg=="
+                  alt="Camera search" data-iml="1676218903797" data-atf="1" data-frt="0">
+              </div>
             </div>
           </div>
         </div>
@@ -77,7 +234,7 @@
 
     </section>
     <div class="language_picker">
-      <p>Google offered in: <a href="#" class="link--blue"> Español (Latinoamerica)</a></p>
+      <p>Google offered in: <a href="#" class="link--blue"> Español (Latinoamérica)</a></p>
     </div>
     <footer>
       <div class="footer__country">
