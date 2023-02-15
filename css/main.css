@@ -37,6 +37,10 @@
   border-bottom: 1px solid transparent;
 }
 
+.link:hover {
+  border-bottom: 1px solid #e8e8e8;
+}
+
 .link--grey {
   color: #e8eaed;
 }
