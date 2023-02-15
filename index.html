@@ -7,6 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google</title>
 
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/f71ca4e003.js" crossorigin="anonymous"></script>
+
+  <!-- favicon -->
+  <link rel="icon" href="https://www.google.com/favicon.ico">
+
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
 
@@ -19,7 +25,7 @@
 
   <!-- Javascript -->
   <script defer src="./script/main.js"></script>
-  <script defer src="./script/chocalatteMenu.js"></script>
+  <script defer src="./script/toggles.js"></script>
 </head>
 
 <body style="background-color:#353535; color: white !important; text-decoration: none;">
@@ -36,7 +42,7 @@
             </span></a>
           <a href="#"><img class="rounder--full"
               src="https://lh3.googleusercontent.com/ogw/AAEL6siyxKSy1gRiROf1EFi9JrMGJxqHgIXRe0PhSE84=s32-c-mo"
-              alt=""></a>
+              alt="your account"></a>
         </div>
       </nav>
       <div id="menu" class="header__drop-down hidden">
@@ -44,7 +50,7 @@
           <a class="link link--white list__item" href="#">
             <img class="rounder--full"
               src="https://lh3.googleusercontent.com/ogw/AAEL6siyxKSy1gRiROf1EFi9JrMGJxqHgIXRe0PhSE84=s32-c-mo"
-              alt="account logo"></img><span>Account</span>
+              alt="account logo" height="48px" width="48px"></img><span>Account</span>
           </a>
           <a class="link link--white list__item" href="#">
             <img src="./assets/icons/icons8-google.svg" alt="search logo"></img><span>Search</span>
@@ -182,7 +188,7 @@
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
           alt="Google_main_logo">
       </div>
-      <form action="" method="get" class="search_bar" id="searchForm">
+      <form action="#" method="get" class="search_bar" id="searchForm">
         <div class="search_bar__finder rounder--md">
           <div class="finder">
             <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -190,9 +196,10 @@
                 d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
           </div>
           </svg>
-          </label>
-          <input type="text" class="search_bar__input" name="searchValue" id="searchVal">
+
+          <input type="text" class="search_bar__input" name="searchValue" id="searchVal" autocomplete="off">
           <div class="search_bar__search_by">
+
             <div class="search_bar__close">
               <a href="" class="link--white" hidden><span class="material-symbols-outlined">
                   close
@@ -222,16 +229,31 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="search_bar__drop_down">
+          <div class="search_bar__drop_down hidden" id="dropDown">
+            <div class="item">
+              <i class="fa-regular fa-clock"></i><span>Google favicon</span><a href="#">Delete</a>
+            </div>
+            <div class="item">
+              <i class="fa-regular fa-clock"></i><span>Google favicon</span><a href="#">Delete</a>
+            </div>
+            <div class="item">
+              <i class="fa-regular fa-clock"></i><span>Google favicon</span><a href="#">Delete</a>
+            </div>
+            <div class="item">
+              <i class="fa-regular fa-clock"></i><span>Google favicon</span><a href="#">Delete</a>
+            </div>
+
+            <div class="search_bar__buttons">
+              <input type="submit" value="Google Search" class="btn bg--lighter"></Input>
+              <input type="submit" value="I'm Feeling Lucky" class="btn bg--lighter"></Input>
+            </div>
+          </div>
         </div>
         <div class="search_bar__buttons">
           <input type="submit" value="Google Search" class="btn"></Input>
           <input type="submit" value="I'm Feeling Lucky" class="btn"></Input>
         </div>
       </form>
-
-
     </section>
     <div class="language_picker">
       <p>Google offered in: <a href="#" class="link--blue"> Español (Latinoamérica)</a></p>
