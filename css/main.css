@@ -110,6 +110,8 @@ header {
   top: 60px;
   right: 20px;
   overflow-y: scroll;
+
+  z-index: 99;
   /* overflow: hidden; */
 }
 
