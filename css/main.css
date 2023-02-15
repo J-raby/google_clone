@@ -112,7 +112,7 @@ header {
   overflow-y: scroll;
 
   z-index: 99;
-  /* overflow: hidden; */
+
 }
 
 .drop-down__list {
